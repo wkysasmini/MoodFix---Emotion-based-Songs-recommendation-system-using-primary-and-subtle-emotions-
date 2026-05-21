@@ -1,0 +1,107 @@
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =========================
+# Node / Frontend
+# =========================
+node_modules/
+dist/
+dist-ssr/
+.output/
+.vite/
+.vinxi/
+.tanstack/
+.nitro/
+*.local
+*.tsbuildinfo
+
+# Ignore Bun lockfile if using npm
+bun.lockb
+
+# =========================
+# Wrangler / Cloudflare
+# =========================
+.wrangler/
+.dev.vars
+
+# =========================
+# Python / Backend
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+ENV/
+
+# Flask / runtime / database
+instance/
+.webassets-cache/
+*.db
+*.sqlite3
+
+# Uploaded/generated images
+static/uploads/
+
+# =========================
+# Environment files
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Build / coverage / cache
+# =========================
+coverage/
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+tmp/
+temp/
+
+# =========================
+# Editor / OS files
+# =========================
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+
+# =========================
+# Optional generated router file
+# Uncomment only if you do NOT want to commit it
+# =========================
+# src/routeTree.gen.ts
+
+backend/data/spotify_songs_processed.json
+backend/data/
+*.json
+*.csv
+*.pkl
+*.h5
+node_modules/
+.env
